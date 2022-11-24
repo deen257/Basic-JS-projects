@@ -62,3 +62,11 @@ def lorem():
 @app.route("/sidebar")
 def sidebar():
     return render_template("sidebar.html")
+
+@app.route("/model")
+def model():
+    return render_template("model.html")
+
+@app.route("/budget")
+def budget():
+    return render_template("budget.html")

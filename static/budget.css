@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(205, 86%, 17%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button:hover {
+  color: white;
+  background: black;
+}
+
+button {
+  text-transform: uppercase;
+  background: transparent;
+  color: hsl(205, 86%, 17%);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+input {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.generate-btn {
+  display: flex;
+  justify-content: center;
+}
+.none {
+  display: none;
+}
+
+.budget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: bold;
+}

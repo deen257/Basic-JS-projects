@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/static/budget.css" rel="stylesheet" />
+    <script src="/static/budget.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>create a budget</h1>
+      <form class="budget-form">
+        <h3>
+          income:
+          <input type="text" name="income" id="income" placeholder="N1000" />
+        </h3>
+        <h3>
+          gender:
+          <input type="radio" name="gender" id="gender1" value="Male" />
+
+          <label for="gender1">Male</label>
+          <input type="radio" name="gender" id="gender2" value="Female" />
+          <label for="gender1">Female</label>
+        </h3>
+        <h3>
+          Age:
+          <input type="number" name="age" id="age" placeholder="30" /><br />
+        </h3>
+
+        <h3>
+          status:
+          <input type="radio" name="status" id="status1" value="Married" />
+
+          <label for="status1">Married</label>
+          <input type="radio" name="status" id="status1" value="Single" />
+          <label for="status2">Single</label>
+          <input type="radio" name="status" id="status1" value="Divorced" />
+          <label for="status3">Divorced</label>
+        </h3>
+        <h3>
+          dependencies:
+          <input
+            type="number"
+            name="ndependents"
+            id="ndependents"
+            placeholder="No of dependencies"
+          />
+        </h3>
+        <div class="generate-btn">
+          <button type="submit" id="generate">generate budget</button>
+        </div>
+      </form>
+      <div class="budget"></div>
+    </main>
+  </body>
+</html>
